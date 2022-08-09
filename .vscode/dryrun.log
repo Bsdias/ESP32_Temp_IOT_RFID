@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/bruno/code/old projects/Temperatura_IOT_RFID'
+make: Leaving directory '/home/bruno/code/old projects/Temperatura_IOT_RFID'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

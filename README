@@ -1,0 +1,37 @@
+Pinout
+========================
+```__________I2C__________
+ Display
+    PIN_ESP:    Display:
+    22           SCL
+    21           SDA
+
+ MLX90614DCC
+    PIN_ESP:     MLX:
+    22           SCL
+    21           SDA
+
+___________RFID_________
+
+  PIN_ESP:    RC522:
+  18           SCK
+  19           MISO
+  5            SDA
+  4            RST
+  23           MOSI
+
+Servo
+  PIN_ESP:    Servo:
+  2           Control
+
+HY-SRF05
+  PIN_ESP:    HY-SRF05:
+  16           trgiger
+  17           echo
+
+```
+
+
+Dados enviados ao servidor:
+- ID: TAG RDFID
+- Temperatura do usuário 

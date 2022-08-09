@@ -1,0 +1,37 @@
+
+caso precise utilizar duas intrfaces Bus I2C
+
+#define SDA_Temp 12
+#define SCL_Temp 13
+
+TwoWire I2Cone = TwoWire(0);
+TwoWire I2Ctwo = TwoWire(1);
+
+in void setup:
+  I2Cone.begin(SDA_1, SCL_1, freq1);
+  I2Ctwo.begin(SDA_2, SCL_2, freq2);
+
+Otra manbeira indicar apenas 1 e iniciar a wire padrão
+
+
+
+
+//*/
+/*
+
+// teste servo
+  for (motor_pos = 91; motor_pos <=180 ; motor_pos++) { 
+  motor_servo.write(motor_pos);            
+    delay(20);                      
+    Serial.println("Movimentando - +1 pos:"+ String(motor_pos));
+  }
+
+  delay(500);
+  for (motor_pos = 179; motor_pos > 90; motor_pos--) { 
+    motor_servo.write(motor_pos);              
+    delay(20);                       
+    Serial.println("Movimentando - -1 pos:" + String(motor_pos));
+  }
+
+
+*/
